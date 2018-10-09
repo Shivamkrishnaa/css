@@ -1,0 +1,111 @@
+
+body{background: url("casey-horner-517528-unsplash.jpg");}
+html,body{
+
+}
+.form-box input{
+margin-bottom: 20px;
+background-color: white;
+    border-radius: 25px;
+}
+.login-container{
+    border-radius: 25px;
+    position: relative;
+    width: 350px;
+    margin: 200px auto;
+    padding: 20px 40px 40px;
+    text-align: center;
+    animation-name: example;
+    border: 1px solid #ccc;
+}
+@keyframes example {
+    from {background-color: #ffbfa0;}
+    to {background-color: yellow;}
+}
+#output{
+    position: absolute;
+    width: 300px;
+    top: -75px;
+    left: 0;
+    color: #ffbfa0;
+    animation-name: example;
+}
+
+
+
+
+
+
+.login-container::before,.login-container::after{
+    content: "";
+    position: absolute;
+    border-radius: 25px;
+    width: 100%;height: 100%;
+    top: 3.5px;left: 0;
+
+    z-index: -1;
+    -webkit-transform: rotateZ(4deg);
+    -moz-transform: rotateZ(4deg);
+    -ms-transform: rotateZ(4deg);
+    border: 1px solid #ff5190;
+
+}
+button {
+    background-color: #234723;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    border-radius: 25px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+i:hover{
+    opacity: 0.8;
+}
+.form-group{
+    padding: 0px 60px 0px;
+}
+.form-control{
+width: 150px;
+
+}
+}
+.login-container::after{
+    top: 5px;
+    z-index: -2;
+    -webkit-transform: rotateZ(-2deg);
+    border-radius: 25px;
+    -moz-transform: rotateZ(-2deg);
+    -ms-transform: rotateZ(-2deg);
+
+}
+.login-container::after{
+    top: 5px;
+    z-index: -2;
+    -webkit-transform: rotateZ(-5deg);
+
+
+#box{
+width: 50%;
+    padding: 5px 5px 5px;
+}
+.form-box{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    height:30px;
+    border: 1px solid #ccc;;
+    background: #fafafa;
+    transition:0.2s ease-in-out;
+    border-radius: 25px;
+
+}
+
+
+
+
